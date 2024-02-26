@@ -1,0 +1,62 @@
+.Head{
+    width: 1100px;
+    margin: auto;
+}
+
+.contact {
+    text-align: center;
+}
+
+.Lorem {
+    text-align: center;
+}
+
+.Mail{
+    margin-left: 440px;
+}
+
+.inname{
+    margin: auto; 
+   width: 500px;
+   border: 1px solid rgb(0, 0, 0);
+   background-color: #FEECE2
+}
+
+.inemail{
+   margin: 10px; 
+   width: 510px;
+   border: 1px solid rgb(0, 0, 0);
+   background-color: #FEECE2
+}
+
+.insubject{
+   margin: 10px; 
+   width: 1020px;
+   border: 1px solid rgb(0, 0, 0);
+   background-color: #FEECE2
+}
+
+.inaddress{
+   margin: 10px; 
+   width: 1005px;
+   border: 1px solid rgb(0, 0, 0);
+   background-color: #FEECE2
+}
+
+.ปุ่ม{
+    text-align: center;
+}
+
+.insend{
+    border-radius: 40px;
+    padding: 10px;
+    margin: 30px;
+    width: 300px;
+}
+
+footer {
+    background-color: #FFBE98; 
+    text-align: center; 
+    color: black;
+    padding: 10px;
+}
