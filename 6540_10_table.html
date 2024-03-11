@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/custom.css">
+    <style>
+        .text-uppercase {
+            text-transform: uppercase;
+        }
+        .buttom {
+            background-color: blue;
+            color: white;
+            border-radius: 10rem;
+            padding: 10px 20px;
+            border-style: solid;
+            width: 100px;
+            margin: 10;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="text-uppercase">tutorial about table</h1>
+    <hr>
+    <table border="1" bordercolor="red" width="70%" cellpadding="10" cellspacing="0">
+        <thead>
+            <tr bgcolor="yellow">
+              <th>no</th>
+              <th>name</th>
+              <th width="500px" align="center">tel</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Pattanapong Sukhamsaen</td>
+                <td align="center">0920458516</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Pattanapong Sukhamsaen</td>
+                <td align="center" rowspan="2">0920458516</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Pattanapong Sukhamsaen</td>
+                
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                
+                <td colspan="2" align="center">ติดต่อปรึกษา</td>
+                <td align="center">0920458516</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>

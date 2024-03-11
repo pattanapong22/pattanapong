@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="CSS/custom.css">
+</head>
+<body>
+    <h1 class="text-uppercase">tutorial about form</h1>
+    <hr>
+    <form action="">
+        <fieldset>
+            <legend>Text Field</legend>
+
+            <label for="fname">First name</label>
+            <input type="text" id="fname" name="fname" placeholder="กรุณาป้อนชื่อ" required>
+            <br>
+
+            <label for="lname">Last name</label>
+            <input type="text" id="lname" name="lname" placeholder="กรุณาป้อนนามสกุล" required>
+            <br>
+
+            <label for="Email">Email</label>
+            <input type="email" id="email" name="email" placeholder="กรุณาป้อนอีเมล" required>
+            <br>
+
+            <label for="Age">Age</label>
+            <input type="number" id="age" name="age" placeholder="กรุณาป้อนอายุ" required min="0" max="120">
+            <br>
+
+            <label for="Age">Age2</label>
+            <input type="number" id="age" name="age" placeholder="กรุณาป้อนอายุ" required min="0" max="120"  value="60" readonly>
+            <br>
+
+            <label for="Birthday">Birthday</label>
+            <input type="date" id="bd" name="bd" placeholder="กรุณาป้อนวันเกิด" required>
+
+        </fieldset>
+        <fieldset>
+            <legend>Radio Buttom</legend>
+
+            <label for="gender">Gender</label>
+            <input type="radio" name="Gender" id="Gender" id="Male" value="M">
+            <label for="gender">Male</label>
+
+            <input type="radio" name="Gender" id="Female" id="Female" value="F">
+            <label for="gender">Women</label>
+            <br>
+
+            <label for="Other">Other</label>
+            <input type="text" id="age" name="age" placeholder="อื่นๆ" required min="0" max="120" >
+            
+        </fieldset>
+        <fieldset>
+            <legend>Checkbox</legend>
+        </fieldset>
+    </form>
+</body>
+</html>
