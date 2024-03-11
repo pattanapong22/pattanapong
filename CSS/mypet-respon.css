@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pangolin', cursive;
+    
+}
+
+header {
+    background-color: black;
+}
+
+nav {
+    display: flex;  
+    width: 85%;
+    margin: auto;
+    color: whitesmoke;
+    justify-content: space-between;
+   
+}
+
+ul {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.logo {
+    display: flex;
+    align-content: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+/*--------------------sectionhero-----------*/
+
+.hero {
+    background-image: url('https://images.unsplash.com/photo-1462888210965-cdf193fb74de?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    width: 100%;
+    height:600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-hero {
+    text-align: center;
+    color: wheat;
+    font-size: 40px;
+    
+}
+
+
+/*-------------------------main--------------------------------*/
+
+.main-content {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 95%;
+    margin: auto;
+}
+
+.box {
+    background-color: whitesmoke;
+    margin: 30px 10px;    
+    border-radius: 10px;
+}
+
+.image {
+    width:100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.text-param {
+    padding: 10px;
+}
+
+.text-content {
+    padding: 10px;
+}
+
+.contact-accout {
+    background-color: rgb(20, 116, 50);
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    margin-left: 60px;
+    padding: 10px;
+}
+/*-----rps -------*/
+@media screen and (max-width:768px) {
+    .main-content {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width:480px) { 
+    .main-content {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+/*---------------------footer--------------------------*/
+
+footer {
+    background-color: #CC8100;
+    margin: 0%;
+    padding: 0.5px;
+    color: #ffffff;
+   
+}
