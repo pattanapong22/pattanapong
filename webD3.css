@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: rgb(68, 224, 172); */
+}
+
+/* -----Start Header----- */
+
+header{
+    background-color: #5C25A1;
+}
+
+/*nav{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1100px;
+    height: 48px;
+
+    margin: auto;
+}
+
+.logo{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    text-transform: capitalize;
+}
+
+li{
+    margin-right: 20px;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/* ----------Start Hero section--------------  */
+
+.hero{
+    display: flex;
+    width: 1100px;
+    margin: auto;
+
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.hero-text--box{
+    color: #ffffff;
+    /* background-color: rgb(43, 118, 184); */
+
+}
+
+.hero-button{
+    display: flex;
+}
+
+.hero-bt-getStart{
+    background-color: #5E87F2;
+    padding: 8px 20px;
+    border-radius: 30px;
+    margin-right: 20px ;
+    
+    
+}
+
+.hero-bt-watch{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+/* ------------------------------------------------------------------- */
+
+.section-Pricing{
+    width: 1100px;
+    margin: auto;
+    
+
+}
+
+.pc{  /* h1 */
+    text-align: center;  /* ขยับให้ตัวอักษรอยู่ตรงกลาง */
+    padding-top: 40px;
+    text-transform: uppercase;
+}
+
+.lm{
+    text-align: center;
+}
+
+
+.Section-box{
+    display: flex;
+
+}
+
+.box1{
+    list-style: none;
+    white-space: nowrap;
+    width: 350px;
+    height: 600px;    
+    padding: 60px;
+    box-shadow: 0px 0px 2px 1px  rgb(0, 0, 0);
+    border-radius: 30px;
+    
+}
+
+.box2{
+    list-style: none;
+    white-space: nowrap;
+    width: 350px;
+    height: 600px;    
+    padding: 60px;
+    box-shadow: 0px 0px 2px 1px  rgb(0, 0, 0);
+    border-radius: 30px;
+    margin-left: 20px;
+    
+    
+}
+
+.box3{
+    list-style: none;
+    white-space: nowrap;
+    width: 350px;
+    height: 600px;    
+    padding: 60px;
+    box-shadow: 0px 0px 2px 1px  rgb(0, 0, 0);
+    border-radius: 30px;
+    margin-left: 20px;
+    
+    
+}
+
+
+
+/* ------------------------------------plan----------------------------------------- */
+
+.plan{
+    width: 1100px;
+    margin: auto;
+}
+
+.plan-boxs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-boxs-text{
+    width: 30%;
+
+    padding: 20px;
+    box-shadow: 0px 0px 2px 1px  rgb(0, 0, 0);
+    border-radius: 5px;
+
+    font-size: 12px;
+
+}
+
+
+/* ------------------------------------member----------------------------------------- */
+.member{
+    background-color: wheat;
+    padding: 40px;
+}
+
+.member-box{
+    width: 1100px;
+    background-color: aliceblue;
+    margin: auto;
+    box-shadow: 0px 0px 2px 1px  rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 1px 40px 40px;
+}
+
+/*table{
+    width: 80%;
+    border: 1px solid rebeccapurple;   /*  สร้างกรอบ*/
+    /* border-collapse: collapse;  /*  บีบเส้น*/
+
+    /* margin: auto;/* 
+
+/* th, td{
+    border: 1px solid rebeccapurple;
+}*/
+
+/* ---------------------------------ng---------------------- */
+.ngk{
+    width: 1100px;
+    margin: auto;
+}
+
+.Youg{
+    margin-left: 420px;
+}
+
+.n{
+    margin: auto; 
+   width: 500px;  
+   border: 1px solid rgb(0, 0, 0);
+   background-color: rgb(233, 128, 210);  
+}
+
+.g{
+   margin: auto; 
+   width: 500px;  
+   border: 1px solid rgb(0, 0, 0);
+   background-color: rgb(233, 128, 210); 
+}
+
+.sub{
+   margin: auto; 
+   width: 1005px;  
+   border: 1px solid rgb(0, 0, 0);
+   background-color: rgb(233, 128, 210); 
+}
+
+.ms{
+   margin: auto; 
+   width: 1005px;  
+   border: 1px solid rgb(0, 0, 0);
+   background-color: rgb(233, 128, 210); 
+   padding: 5%;
+}
+
+.send1{
+    text-align: center;
+}
+
+.send2{
+    
+    border-radius: 40px;
+    padding: 10px;
+    margin: 30px;
+    width: 300px;
+    
+}
+
+footer /* กรอบล่างสุด */{    
+    background-color: black; 
+    text-align: center;  /* ขยับให้ตัวอักษรอยู่ตรงกลาง */
+    color: aliceblue;
+    padding: 10px;
+    }
